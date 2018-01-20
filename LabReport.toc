@@ -1,0 +1,80 @@
+\contentsline {chapter}{\numberline {1} xv6环境配置}{4}
+\contentsline {chapter}{\numberline {2} Lab 2: Memory Management}{7}
+\contentsline {section}{\numberline {2.1}实验目的}{7}
+\contentsline {section}{\numberline {2.2}实验要求}{7}
+\contentsline {section}{\numberline {2.3}实验内容}{7}
+\contentsline {section}{\numberline {2.4}实验分析}{7}
+\contentsline {chapter}{\numberline {3} Lab 2: Memory Management}{8}
+\contentsline {chapter}{\numberline {4}xv6实验系统分析}{9}
+\contentsline {section}{\numberline {4.1}xv6的系统结构（结合示意图）}{9}
+\contentsline {section}{\numberline {4.2}xv6的引导}{11}
+\contentsline {subsection}{\numberline {4.2.1}代码分析}{13}
+\contentsline {section}{\numberline {4.3}xv6的进程与调度分析}{19}
+\contentsline {subsection}{\numberline {4.3.1}进程的概念}{19}
+\contentsline {subsection}{\numberline {4.3.2}进程控制块}{20}
+\contentsline {section}{\numberline {4.4}xv6的内存管理}{36}
+\contentsline {section}{\numberline {4.5}xv6的文件系统}{44}
+\contentsline {subsection}{\numberline {4.5.1} 磁盘结构}{45}
+\contentsline {subsection}{\numberline {4.5.2}Inode结构}{46}
+\contentsline {subsection}{\numberline {4.5.3} 目录与普通文件}{49}
+\contentsline {subsection}{\numberline {4.5.4} 块缓存}{49}
+\contentsline {subsection}{\numberline {4.5.5} 磁盘ide驱动文件}{52}
+\contentsline {subsection}{\numberline {4.5.6} 文件操作}{53}
+\contentsline {subsection}{\numberline {4.5.7} 文件系统服务器}{53}
+\contentsline {subsection}{\numberline {4.5.8} 用户使用的fd文件描述符}{55}
+\contentsline {subsection}{\numberline {4.5.9} 日志系统}{55}
+\contentsline {section}{\numberline {4.6}xv6 的I/O }{56}
+\contentsline {subsection}{\numberline {4.6.1}使用系统调用的文件描述符}{56}
+\contentsline {subsection}{\numberline {4.6.2}命名服务}{57}
+\contentsline {subsection}{\numberline {4.6.3}I/O 子系统}{57}
+\contentsline {subsection}{\numberline {4.6.4}文件层的系统调用}{58}
+\contentsline {subsection}{\numberline {4.6.5} 无文件开启时}{61}
+\contentsline {subsection}{\numberline {4.6.6} 执行open(”/carmi/f0”)}{62}
+\contentsline {subsection}{\numberline {4.6.7} 执行dup(0)}{63}
+\contentsline {subsection}{\numberline {4.6.8} 执行close(0)}{64}
+\contentsline {subsection}{\numberline {4.6.9} 执行dup(1)}{65}
+\contentsline {subsection}{\numberline {4.6.10} 执行open(”/console”)}{66}
+\contentsline {subsection}{\numberline {4.6.11} 执行fork()}{67}
+\contentsline {subsection}{\numberline {4.6.12} 执行P0 close(1)}{68}
+\contentsline {subsection}{\numberline {4.6.13} 执行P1 close(2)}{69}
+\contentsline {subsection}{\numberline {4.6.14} 执行P0 pipe()}{70}
+\contentsline {subsection}{\numberline {4.6.15}文件层调度}{70}
+\contentsline {subsection}{\numberline {4.6.16}I/O缓存Buf结构}{73}
+\contentsline {subsection}{\numberline {4.6.17}APIC}{73}
+\contentsline {subsubsection}{I/O APIC}{74}
+\contentsline {subsubsection}{Local APIC}{74}
+\contentsline {subsubsection}{ Timer}{74}
+\contentsline {chapter}{\numberline {5}实验感想}{75}
+\contentsline {chapter}{\numberline {A}linux学习资料}{76}
+\contentsline {chapter}{\numberline {B}用户态和内核态是什么,有什么区别}{77}
+\contentsline {chapter}{\numberline {C}为什么需要打开A20地址线}{78}
+\contentsline {chapter}{\numberline {D}操作系统相关的基本概念}{79}
+\contentsline {section}{\numberline {D.1} 操作系统内核（Operating System Kernel）}{79}
+\contentsline {section}{\numberline {D.2} 不可抢占型内核 （Non-Preemptive Kernel）}{79}
+\contentsline {section}{\numberline {D.3} 可抢占型内核（Preemptive Kernel）}{80}
+\contentsline {section}{\numberline {D.4} 进程（process）}{81}
+\contentsline {section}{\numberline {D.5} 进程状态}{81}
+\contentsline {section}{\numberline {D.6} 多进程}{82}
+\contentsline {section}{\numberline {D.7} 调度（Scheduling）}{82}
+\contentsline {section}{\numberline {D.8} 进程调度算法}{82}
+\contentsline {section}{\numberline {D.9} 可重入性（Reentrancy）}{83}
+\contentsline {section}{\numberline {D.10} 上下文切换(Context Switch or Task Switch)}{84}
+\contentsline {section}{\numberline {D.11} 进程优先级}{85}
+\contentsline {subsection}{\numberline {D.11.1}静态进程优先级}{85}
+\contentsline {subsection}{\numberline {D.11.2}动态进程优先级}{85}
+\contentsline {section}{\numberline {D.12} 资源}{85}
+\contentsline {section}{\numberline {D.13} 共享资源}{85}
+\contentsline {section}{\numberline {D.14} 竞争状态（race condition）}{85}
+\contentsline {section}{\numberline {D.15} 程序临界区}{86}
+\contentsline {section}{\numberline {D.16} 互斥条件}{86}
+\contentsline {subsection}{\numberline {D.16.1} 屏蔽中断和使能中断}{87}
+\contentsline {subsection}{\numberline {D.16.2} 测试并置位指令}{87}
+\contentsline {subsection}{\numberline {D.16.3} 禁止进程切换，然后允许进程切换}{87}
+\contentsline {subsection}{\numberline {D.16.4} 信号量(Semaphores)}{88}
+\contentsline {section}{\numberline {D.17} 死锁(或抱死)（Deadlock (or Deadly Embrace)）}{90}
+\contentsline {section}{\numberline {D.18} 同步}{90}
+\contentsline {section}{\numberline {D.19} 进程间的通信(Intertask Communication)}{91}
+\contentsline {section}{\numberline {D.20} 中断}{91}
+\contentsline {section}{\numberline {D.21} 时钟节拍(Clock Tick)}{92}
+\contentsline {section}{\numberline {D.22}对存储器的需求}{92}
+\contentsfinish 
